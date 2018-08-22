@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css?family=Rouge+Script'); */
+
+.etsy-rss-feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.etsy-rss-item {
+    padding: 0.8em;
+    margin: 0.8em;
+    background-color: rgb(204, 198, 210);
+    max-width: 300px;
+    min-width: 0.95vw;
+    height: auto;
+}
+
+.etsy-rss-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.etsy-rss-item .description {
+    display: none;
+}
+
+.etsy-rss-item > .search-links {
+    padding: 2%;
+    background: rgb(190, 175, 200);
+    color: rgb(45, 0, 90);
+}
+
+.etsy-rss-item > .search-links > p {
+    font-size: 1em;
+}
+
+.etsy-rss-item > .search-links > a {
+    line-height: 2.5em;
+    font-size: 0.75em;
+    margin: 2%;
+    padding: 2%;
+    background: rgb(220, 215, 225);
+}

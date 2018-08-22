@@ -1,0 +1,35 @@
+/* 
+Theme Name: minimatic
+Theme URI: 'uri'
+Description: 'description'
+Author: Craig Dempsey
+Version: 1.0
+Template: thematic
+Tags: If you want to you can add tags 
+*/
+
+/* @import url('./library/styles/pmd-colors.css'); */
+
+/* Reset the browser defaults */
+@import url('./library/styles/res-reset.css');
+
+/* Apply thematic typography */
+@import url('./library/styles/res-typography.css');
+
+/* Style for sf-menu */
+@import url('./library/styles/sf-menu-style.css');
+
+/* Start with some default styles */
+@import url('./library/styles/default-pmd.css'); 
+
+/* Style for etsy feed */
+@import url('./library/styles/etsy-pmd.css');
+
+
+/* Add WordPress image styles */
+/* @import url('../thematic/library/styles/images.css'); */
+
+
+
+
+
